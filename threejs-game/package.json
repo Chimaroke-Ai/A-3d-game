@@ -1,0 +1,31 @@
+{
+  "name": "threejs-game",
+  "version": "1.0.0",
+  "description": "An infinite game featuring a rider on a bike navigating through obstacles and collecting rewards.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "three": "^0.140.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0",
+    "babel-loader": "^8.0.0",
+    "babel-core": "^7.0.0",
+    "babel-preset-env": "^1.0.0"
+  },
+  "keywords": [
+    "three.js",
+    "game",
+    "infinite",
+    "rider",
+    "obstacles",
+    "rewards"
+  ],
+  "author": "",
+  "license": "MIT"
+}
